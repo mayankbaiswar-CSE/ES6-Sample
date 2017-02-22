@@ -1,0 +1,23 @@
+{
+  "name": "es6-demo",
+  "version": "0.0.0",
+  "description": "demo for es6 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "gulp && node ./src/app.js"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "mayank",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-print": "^2.0.1"
+  }
+}
